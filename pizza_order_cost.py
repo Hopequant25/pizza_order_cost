@@ -1,4 +1,4 @@
-# Goal: Calculate the total cost of a pizza order (size + toppings + delivery).
+#Goal: Calculate the total cost of a pizza order (size + toppings + delivery).
 #
 # ------------ Psuedo Code ------------
 #1.Set the pizza prices and the delivery charges
@@ -31,11 +31,9 @@ if size == "small":
     base_cost = SMALL_BASE_PRICE
 elif size == "large":
     base_cost  = LARGE_BASE_PRICE
-else:
     print("chose among the two in lower case")
     raise SystemExit
-
-
+    
 # ------------ toppings -------------
 
 toppings_cost = topping * TOPPING_PRICE
