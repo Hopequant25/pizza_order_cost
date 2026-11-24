@@ -31,7 +31,9 @@ if size == "small":
     base_cost = SMALL_BASE_PRICE
 elif size == "large":
     base_cost  = LARGE_BASE_PRICE
-    print("chose among the two in lower case")
+else:
+    print("choose either small or large")
+
     raise SystemExit
     
 # ------------ toppings -------------
